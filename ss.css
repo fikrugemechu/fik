@@ -1,0 +1,38 @@
+ul {
+    list-style-type:none;
+    margin: 21;
+    padding: 22;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 2%);
+  }
+  ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li {
+    border-right: 9px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: 3px;
+  }
+  ul {
+    position: fixed;
+  top: 0;
+    width: 80%;
+  }
+
+  

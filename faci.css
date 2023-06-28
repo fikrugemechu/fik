@@ -1,0 +1,58 @@
+.{
+padding: 0;
+margin: 0;
+text-decoration: none;
+outline: none;
+}
+body{
+
+    background-color: rgb(5, 5, 252);
+    width:70%;
+    
+    <marquee direction="left" scrollamount="3">
+    This text will scroll from right to left!
+  </marquee>
+  
+}
+form{
+    background-color: rgb(152, 124, 212);
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    padding: 10px 5px 10px 5px;
+    margin: 7vh 60px;
+    border-radius:5px;
+    box-shadow: 3px;
+text-align: left;
+}
+input[type='text'], input[type='password']{
+    display: block;
+   background-color: #fff;
+margin:auto;
+border: 2px solid rgb(25, 0, 255);
+width: 200px;
+padding: 10px 40px;
+border-radius: 10px;
+text-align: center;
+color: #000;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 10px;
+}
+button{
+    background-color: rgba(54, 41, 242, 0.984);
+    border: none;
+    margin: auto;
+    width: 283px;
+    padding: 3px;
+    border-radius: 5px;
+   display: block;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+
+.f-wps{
+    display: block;width: 200px;
+    margin: auto;
+     
+}git remote add origin https://github.com/FIKRU-GEMECHU/web-design.git
